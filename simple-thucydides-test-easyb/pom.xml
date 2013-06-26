@@ -8,11 +8,11 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Sample Thucydides project</name>
+    <name>Simple Thucydides project easyb</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <thucydides.version>0.9.98</thucydides.version>
+        <thucydides.version>0.9.127</thucydides.version>
         <webdriver.driver>firefox</webdriver.driver>
     </properties>
 

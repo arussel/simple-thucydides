@@ -5,6 +5,9 @@ import com.github.arussel.requirements.Application.Search.SearchByKeyword
 
 using "thucydides"
 
+thucydides.tests.feature "Product list"
+thucydides.tests.feature "Search"
+thucydides.tests.capability "Desktop app"
 thucydides.uses_default_base_url "http://en.wiktionary.org/wiki/Wiktionary:Main_Page"
 thucydides.uses_steps_from EndUserSteps
 thucydides.tests_story SearchByKeyword

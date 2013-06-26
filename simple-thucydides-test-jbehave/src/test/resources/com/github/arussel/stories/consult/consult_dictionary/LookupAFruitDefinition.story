@@ -1,3 +1,6 @@
+In order to become more knowledgeable
+As a user
+I want to be able to find the definition of the fruits I'm eating
 
 Scenario: Looking up the definition of 'apple'
 Given the user is on the Wikionary home page

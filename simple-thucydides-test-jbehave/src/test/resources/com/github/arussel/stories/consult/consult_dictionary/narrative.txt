@@ -1,0 +1,8 @@
+Look up fruits and vegetables definitions
+
+Narrative:
+In order to eat healthy food
+As a user
+I want to be able to lookup definitions of fruits
+and vegetables in wikitionary
+
