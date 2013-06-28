@@ -118,7 +118,7 @@
                 <configuration>
                     <storyType>html</storyType>
                     <storyReport>target/easyb/easyb.html</storyReport>
-                    <easybTestDirectory>src/test/stories</easybTestDirectory>
+                    <easybTestDirectory>src/test/com.github.arussel.stories</easybTestDirectory>
                     <jvmArguments>-Xmx512m -Dwebdriver.driver=${webdriver.driver}</jvmArguments>
                 </configuration>
             </plugin>
