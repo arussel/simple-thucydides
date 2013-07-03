@@ -1,5 +1,6 @@
 package com.github.arussel;
 
+import com.github.arussel.requirements.Application;
 import net.thucydides.core.annotations.Issue;
 import net.thucydides.core.annotations.ManagedPages;
 import net.thucydides.core.annotations.Pending;
@@ -13,7 +14,6 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 
-import com.github.arussel.requirements.Application;
 import com.github.arussel.steps.EndUserSteps;
 
 @Story(Application.Search.SearchByKeyword.class)

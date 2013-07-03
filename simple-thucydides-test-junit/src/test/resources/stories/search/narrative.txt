@@ -1,7 +1,0 @@
-Search
-
-Narrative:
-In order to become a gentleman
-As a user
-I want to be able to learn from the internet and search
-defintions for words.
