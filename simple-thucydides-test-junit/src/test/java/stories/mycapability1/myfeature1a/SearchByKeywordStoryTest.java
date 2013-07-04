@@ -1,4 +1,4 @@
-package com.github.arussel.stories.mycapability1.myfeature1a;
+package stories.mycapability1.myfeature1a;
 
 import com.github.arussel.steps.EndUserSteps;
 import net.thucydides.core.annotations.*;

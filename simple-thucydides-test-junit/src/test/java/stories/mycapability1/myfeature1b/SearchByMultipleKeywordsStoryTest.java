@@ -1,4 +1,4 @@
-package com.github.arussel.stories.mycapability1.myfeature1b;
+package stories.mycapability1.myfeature1b;
 
 import net.thucydides.core.annotations.Narrative;
 import net.thucydides.junit.runners.ThucydidesRunner;
