@@ -1,24 +1,25 @@
-package com.github.arussel;
+package com.github.arussel.stories.mycapability1.myfeature1a;
 
-import com.github.arussel.requirements.Application;
-import net.thucydides.core.annotations.Issue;
-import net.thucydides.core.annotations.ManagedPages;
-import net.thucydides.core.annotations.Pending;
-import net.thucydides.core.annotations.Steps;
-import net.thucydides.core.annotations.Story;
+import com.github.arussel.steps.EndUserSteps;
+import net.thucydides.core.annotations.*;
 import net.thucydides.core.pages.Pages;
-import net.thucydides.core.annotations.Managed;
 import net.thucydides.junit.runners.ThucydidesRunner;
-
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 
-import com.github.arussel.steps.EndUserSteps;
+@Narrative(
+        title = "a narrative title for story 1a x",
+        text = {
+                "A narrative text for",
+                "story 1a x"
+        },
+        cardNumber = "1AX",
+        type = "Story"
 
-@Story(Application.Search.SearchByKeyword.class)
+)
 @RunWith(ThucydidesRunner.class)
-public class SearchByKeywordStoryTest {
+public class  SearchByKeywordStoryTest {
 
     @Managed(uniqueSession = true)
     public WebDriver webdriver;
