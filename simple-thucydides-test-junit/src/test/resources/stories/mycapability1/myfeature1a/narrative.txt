@@ -1,0 +1,6 @@
+This is a narrative title
+
+Narrative:
+this is a narrative
+text foo bar for
+mycapability 1
