@@ -5,6 +5,6 @@
         cardNumber = "1",
         type = "mycapabilitytype"
 )
-package stories.mycapability1;
+package annotated.mycapability1;
 
 import net.thucydides.core.annotations.Narrative;

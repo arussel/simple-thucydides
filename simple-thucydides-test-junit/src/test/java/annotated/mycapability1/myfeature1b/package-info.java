@@ -3,6 +3,6 @@
         text = {"my narrative text",
                 "for feature 1B"}
 )
-package stories.mycapability1.myfeature1b;
+package annotated.mycapability1.myfeature1b;
 
 import net.thucydides.core.annotations.Narrative;
