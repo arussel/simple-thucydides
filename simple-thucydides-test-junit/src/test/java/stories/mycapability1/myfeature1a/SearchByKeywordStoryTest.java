@@ -1,4 +1,4 @@
-package annotated.mycapability1.myfeature1a;
+package stories.mycapability1.myfeature1a;
 
 import com.github.arussel.steps.EndUserSteps;
 import net.thucydides.core.annotations.*;
@@ -8,17 +8,8 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 
-@Narrative(
-        title = "a narrative title for story 1a x",
-        text = {
-                "A narrative text for",
-                "story 1a x"
-        },
-        cardNumber = "1AX",
-        type = "Story"
-
-)
 @RunWith(ThucydidesRunner.class)
+@WithTag("DO_YOU_SEE_ME")
 public class  SearchByKeywordStoryTest {
 
     @Managed(uniqueSession = true)
