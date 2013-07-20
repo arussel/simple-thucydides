@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 
 @RunWith(ThucydidesRunner.class)
-@WithTag("DO_YOU_SEE_ME")
+//@WithTag("DO_YOU_SEE_ME")
 public class  SearchByKeywordStoryTest {
 
     @Managed(uniqueSession = true)
